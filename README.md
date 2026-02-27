@@ -44,7 +44,7 @@ Quick deployment:
 1. Create a GitHub repository named `portfolio`
 2. Push your code to the `main` branch
 3. GitHub Actions automatically builds and deploys
-4. Site goes live at `https://yourusername.github.io/portfolio`
+4. Site goes live at `https://samianalugo.github.io/portfolio`
 
 ## 📁 Project Structure
 
@@ -71,8 +71,8 @@ portfolio/
 
 ## 🔗 Links
 
-- Email: [your@email.com](mailto:your@email.com)
-- GitHub: [Your GitHub](https://github.com)
+- Email: (mailto:samianalugo@email.com)
+- GitHub: (https://github.com/samianalugo/portfolio)
 
 ---
 

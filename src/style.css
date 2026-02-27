@@ -68,7 +68,7 @@ main {
     min-width: 260px;
 }
 .project-image img {
-    width: 100%;
+    width: 145%;
     height: 100%;
     border-radius: 10px;
     object-fit: cover;
@@ -76,7 +76,9 @@ main {
     border: 1px solid rgba(11,47,122,0.08);
 }
 .project-description {
-    flex: 1;
+    flex: 1 1 50%;
+    max-width: 480px; /* keep description narrower */
+    margin-left: auto; /* push to right */
     background: #fff;
     padding: 20px;
     border-radius: 10px;
@@ -125,6 +127,23 @@ main {
 }
 .about-text {
     flex: 1; /* take remaining space */
+}
+
+/* card wrapper for home text */
+.home-card {
+    background: #fff;
+    padding: 20px 24px;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(11,47,122,0.06);
+    border: 1px solid rgba(11,47,122,0.06);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.home-card p {
+    margin: 0;
+    line-height: 1.7;
 }
 
 /* greeting highlight */
